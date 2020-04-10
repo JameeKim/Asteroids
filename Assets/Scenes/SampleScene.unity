@@ -297,6 +297,7 @@ GameObject:
   - component: {fileID: 1522856701}
   - component: {fileID: 1522856704}
   - component: {fileID: 1522856703}
+  - component: {fileID: 1522856705}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -381,8 +382,8 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 3
-  m_AngularDrag: 0.05
+  m_LinearDrag: 2
+  m_AngularDrag: 1
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -426,3 +427,17 @@ PolygonCollider2D:
       - {x: 0.48739672, y: -0.29636502}
       - {x: 0.49130154, y: -0.22185725}
       - {x: 0.10487342, y: 0.23079358}
+--- !u!114 &1522856705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522856700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d113d1f8713f6849961fffb362e9b64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  linearAcceleration: 8
+  angularAcceleration: 0.2
