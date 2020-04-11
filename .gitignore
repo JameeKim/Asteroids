@@ -64,3 +64,7 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Odin Inspector Plugin Files
+Assets/Plugins/Sirenix/Assemblies/AOT/*
+Assets/Plugins/Sirenix/Demos/*
+!Assets/Plugins/Sirenix/Demos/*.unitypackage

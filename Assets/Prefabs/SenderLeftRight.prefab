@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8414661124613453842}
   - component: {fileID: 8414661124613453843}
   m_Layer: 0
-  m_Name: Sender
+  m_Name: SenderLeftRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -71,6 +71,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   receiver: {fileID: 0}
-  onEntityEnter:
-    m_PersistentCalls:
-      m_Calls: []
