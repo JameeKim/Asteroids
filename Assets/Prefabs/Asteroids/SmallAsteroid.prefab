@@ -7,10 +7,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6571558719990612353, guid: 092acabe06a54184eb5da594aa1b89e8,
+        type: 3}
+      propertyPath: settings
+      value: 
+      objectReference: {fileID: 11400000, guid: 17cff04edc78e604590ab88fcd09afec,
+        type: 2}
     - target: {fileID: 7354471671869822932, guid: 092acabe06a54184eb5da594aa1b89e8,
         type: 3}
       propertyPath: m_Name
-      value: Asteroid
+      value: SmallAsteroid
       objectReference: {fileID: 0}
     - target: {fileID: 7354471671869822934, guid: 092acabe06a54184eb5da594aa1b89e8,
         type: 3}

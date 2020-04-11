@@ -39,7 +39,11 @@ namespace Asteroids {
         private Vector2 RandomPosition()
         {
             int side = Random.Range(0, 4);
-            Vector2 result = RandomExtension.Range(spawnRangeMin, spawnRangeMax);
+            Vector2 result;
+            do // FIXME This is a really lazy way to solve the problem...
+            {
+                result = RandomExtension.Range(Vector2.zero, spawnRangeMax);
+            } while (result.x < spawnRangeMin.x && result.y < spawnRangeMin.y);
 
             switch (side)
             {
@@ -56,6 +60,7 @@ namespace Asteroids {
                     break;
             }
 
+            Debug.Log($"Spawned at ({result.x:F2}, {result.y:F2})");
             return result;
         }
 
